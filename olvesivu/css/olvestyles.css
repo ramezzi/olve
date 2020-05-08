@@ -1,0 +1,387 @@
+
+body {
+    background-color: lightgray;
+    font-family: "Verdana", serif;
+}
+#headerMain {
+    background-color: darkred;
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.navilinkki {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-style: hidden;
+    text-decoration: none;
+    transition: 0.25s;
+}
+ul.linkkilista li {
+    display: inline-block;
+}
+.linkkilista {
+    list-style-type: none;
+    background-color: #333333;
+    padding: 20px;
+    margin: 0;
+
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navhead {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#headerlogo {
+    height: 100px;
+    width: 100px;
+}
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail2 {
+    padding: 0;
+    transition: all 0.4s;
+}
+
+.thumbnail2:link {
+    color: black;
+}
+
+.thumbnail2:visited {
+    color: black;
+}
+
+.thumbnail2:hover {
+    color: black;
+    font-size: 40px;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.thumbnail2:active {
+    color: black;
+}
+
+.thumbnailpic {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.navilinkki:hover {
+    /*background-color: black;*/
+}
+.kuvapalkki {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: normal;
+    text-shadow: 3px 2px grey;
+    border-radius: 5px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 30%;
+
+}
+.smol {
+    height: 100px;
+    width: 100px;
+}
+.container {
+    padding: 10px;
+    display: block;
+    overflow: auto;
+}
+.kuvapalkki2 {
+    background-color: white;
+    margin: 25px;
+    max-width: 400px;
+}
+.fatherpalkki {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+#jokukuva {
+    -webkit-filter: blur(4px);filter: blur(4px);
+}
+
+.bait {
+    border-style: hidden;
+    text-decoration: none;
+    background-color: darkred;
+    padding: 20px;
+    color: white;
+}
+
+#baitter {
+    margin: 50px;
+}
+
+.headertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 2px grey;
+}
+
+.takuotsikko {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    -webkit-transition: all 0.25s;
+}
+
+
+
+.bannertext {
+
+}
+
+.bannercontainer {
+    text-align: center;
+    height: 500px;
+}
+
+.bannernappi {
+    border-style: hidden;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, darkred 50%, #000 50%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+.bannernappi:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    background-position: bottom right;
+    color: white;
+}
+
+.bannerlinkki {
+    text-decoration: none;
+}
+
+.bannerlinkki:visited {
+    color: white;
+}
+
+#meme {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 2px grey;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 40px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to left, #fff 50%, #000 50%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+    box-shadow: none;
+    font-weight: bold;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    background-position: bottom left;
+    color: #fff;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: max-height 0.2s ease-out;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.utility {
+    height: 50px;
+    width: 50px;
+}
+
+.utilitylink {
+    height: 50px;
+    width: 50px;
+}
+
+.bg-img {
+    /* The image used */
+    /*background-image: url("/img/attractiveBackground.jpg");*/
+
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container2 {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+/*.container2:hover {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    overflow: hidden;
+}*/
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 0;
+}
+
+ul.topnav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, transparent 50%, white 50%);
+    background-size: 200% 20%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+ul.topnav li:hover {
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    background-position: bottom left;
+    color: #fff;
+}
+
+#olvemini {
+    height: 50px;
+    width: 50px;
+    background-color: #333;
+}
+
+#viiva {
+    margin: 0;
+    padding: 1px;
+    background-color: #333333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+#myHeader {
+    transition: 0.25s;
+}
+/* Navbar links
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}*/
